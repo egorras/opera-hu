@@ -28,10 +28,9 @@ class OperaTicketMonitor:
 
     def create_notification_message(self, event, price):
         return (f"🎭 Билеты доступны!\n\n"
-                f"{event['name']}\n"
+                f"<a href='{event['purchase_url']}'>{event['name']}</a>\n"
                 f"{event['date']}\n"
-                f"Цена от: {price} HUF\n"
-                f"{event['purchase_url']}")
+                f"От {price} HUF")
 
     def send_telegram_notification(self, message):
         telegram_url = f"https://api.telegram.org/bot{self.bot_token}/sendMessage"
