@@ -5,5 +5,12 @@
       "date": "Вокресенье, 22 Июня 2025 11:00",
       "purchase_url": "https://opera.jegy.hu/program/a-bajader-160270/1138889?lang=en",
       "price_threshold": 5000
+    },
+    {
+      "event_id": "1126456",
+      "name": "Symphonic concert: Golden Age - English Elegancy",
+      "date": "Вокресенье, 2 Февраля 2025 19:00",
+      "purchase_url": "https://opera.jegy.hu/program/aranykor-angol-elegancia-160373/1126456?lang=en",
+      "price_threshold": 5000
     }
 ]
